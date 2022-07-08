@@ -10,9 +10,9 @@ pipeline {
         // 3. As a environment variable for all branches (see below)
 
         API_VERSION = 'google'
-        APIGEE_ORG = 'toc-avaya-sandbox-apigee'
-        APIGEE_ENV = 'eval'
-        TEST_HOST= 'api.latamdc.com'
+        APIGEE_ORG = 'ehumar-apigee-terra'
+        APIGEE_ENV = 'test'
+        TEST_HOST= 'test.apigee.net'
         APIGEE_DEPLOYMENT_SUFFIX='jenkis'
         AUTHOR_EMAIL = '@google.com'
     }
